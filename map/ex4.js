@@ -52,6 +52,16 @@ Tableau de sortie correspondant (toFixed transforme les nombres en chaînes)
 */
 
 function getCirclesProperties(radiuses) {
+  const exit = radiuses.map(value => {
+    let Ciconférence  =  (2 * Math.PI * value).toFixed(3)
+    let Diamètre =  (Math.PI * value * value).toFixed(3)
+    return {
+      radius: value,
+      circumference: Ciconférence,
+      surface: Diamètre
+    }
+  })
+  return exit
 }
 
 
