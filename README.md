@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/seb879/array-map-filter.svg?branch=master)](https://travis-ci.com/seb879/array-map-filter)
+
 # Exercices sur map et filter
 
 ## Installation
